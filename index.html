@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Mi Huella en el Mundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>QUIZ - MI HUELLA EN EL MUNDO</h1>
+        <p>La huella de Carbono</p>
+    </header>
+
+    <div class="container">
+        <section id="p0">
+            <h3>1- ¿Crees que tu generas una emision de carbono importante en el mundo? <span>1 punto</span></h3>
+            <label>
+                <input type="radio" value="1" name="p0" ondblclick="respuesta(0,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" ondblclick="respuesta(0,this)"> No
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" ondblclick="respuesta(0,this)"> Más o menos
+            </label>
+        </section>
+        <section id="p1">
+            <h3>2- ¿Cambiarias tus habitos de emision de carbonos por una solucion más ecologica, sabiendo que contaminas de sobre manera? <span>1 punto</span></h3>
+            <label>
+                <input type="radio" value="1" name="p1" ondblclick="respuesta(1,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" ondblclick="respuesta(1,this)"> No
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" ondblclick="respuesta(1,this)"> Tal vez
+            </label>
+        </section>
+        <section id="p2">
+            <h3>3- ¿Cuanto carbono crees que generas en tu día a día? <span>1 punto</span></h3>
+            <label>
+                <input type="radio" value="1" name="p2" ondblclick="respuesta(2,this)"> Poco
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" ondblclick="respuesta(2,this)"> Mucho
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" ondblclick="respuesta(2,this)"> Moderado
+            </label>
+        </section>
+        <section id="p3">
+            <h3>4- ¿Crees que es bueno disminuiir las emisiones de carbono en el mundo? <span>1 punto</span></h3>
+            <label>
+                <input type="radio" value="1" name="p3" ondblclick="respuesta(3,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" ondblclick="respuesta(3,this)"> No
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" ondblclick="respuesta(3,this)"> Me da igual
+            </label>
+        </section>
+        <section id="p4">
+            <h3>5- ¿Sabes que contaminas en tu día a día sin darte cuenta y quieres cambiar eso? <span>1 punto</span></h3>
+            <label>
+                <input type="radio" value="1" name="p4" ondblclick="respuesta(4,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" ondblclick="respuesta(4,this)"> No
+            <label>
+                <input type="radio" value="3" name="p4" ondblclick="respuesta(4,this)"> Me vale
+            </label>
+        </section>
+
+        <a href="#"><button onclick="">COMPLETAR</button></a>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
